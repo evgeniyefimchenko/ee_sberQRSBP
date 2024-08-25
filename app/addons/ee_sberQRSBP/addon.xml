@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>ee_sberQRSBP</id>
+    <version>1.5.0</version>
+    <status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>ru</default_language>
+
+    <has_icon>Y</has_icon>
+    <supplier>efimchenko.com</supplier>
+    <supplier_link>https://efimchenko.com</supplier_link>
+    <settings layout="separate" edition_type="ROOT,VENDOR,STOREFRONT">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="ClientID">                      
+                        <type>input</type>
+                    </item>
+                    <item id="ClientSecret">
+                        <type>input</type>
+                    </item>
+                    <item id="memberID">
+                        <type>input</type>
+                    </item>
+                    <item id="id_qr">
+                        <type>input</type>
+                    </item>
+                    <item id="cert_pass">                      
+                        <type>input</type>
+                    </item>
+                    <item id="cert_file">                      
+                        <type>file</type>
+                    </item>
+                </items>
+            </section>
+            <section id="payments">
+                <items>			
+                    <item id="payment_id">
+                        <type>selectbox</type>
+                    </item>
+					<item id="notify">                      
+                        <type>info</type>
+						<handler>fn_ee_sberQRSBP_info</handler>
+                    </item>		
+                </items>
+            </section>
+            <section id="docs">
+                <items>
+					<item id="logs">
+						<type>checkbox</type>
+						<default_value>Y</default_value>
+					</item>
+					<item id="doc_template"> 
+						<type>template</type>
+						<default_value>ee_sberQRSBP_doc.tpl</default_value>
+					</item>
+                </items>
+            </section>				
+        </sections>
+    </settings>
+    <functions>
+        <item for="install">fn_ee_sberQRSBP_install</item>
+        <item for="uninstall">fn_ee_sberQRSBP_uninstall</item>
+    </functions>
+</addon>

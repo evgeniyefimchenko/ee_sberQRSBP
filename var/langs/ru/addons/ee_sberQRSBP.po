@@ -1,0 +1,69 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU"
+
+msgctxt "Addons::name::ee_sberQRSBP"
+msgid "ee_sberQRSBP_name"
+msgstr "[efimchenko.ru] SberPay QR СБП"
+
+msgctxt "Addons::description::ee_sberQRSBP"
+msgid "ee_sberQRSBP_description"
+msgstr "Модуль интеграции оплаты SberPay QR СБП в заказ административной панели сайт, оплата при оформлении в клиентской части сайта заказа не интегрирована!"
+
+msgctxt "SettingsSections::ee_sberQRSBP::general"
+msgid "ee_sberQRSBP_general"
+msgstr "Общее"
+
+msgctxt "SettingsSections::ee_sberQRSBP::payments"
+msgid "ee_sberQRSBP_payments"
+msgstr "Метод оплаты"
+
+msgctxt "SettingsSections::ee_sberQRSBP::docs"
+msgid "ee_sberQRSBP_docs"
+msgstr "Документация"
+
+msgctxt "SettingsOptions::ee_sberQRSBP::ClientID"
+msgid "ClientID"
+msgstr "ClientID"
+
+msgctxt "SettingsOptions::ee_sberQRSBP::ClientSecret"
+msgid "ClientSecret"
+msgstr "ClientSecret"
+
+msgctxt "SettingsOptions::ee_sberQRSBP::memberID"
+msgid "memberID"
+msgstr "memberID"
+
+msgctxt "SettingsOptions::ee_sberQRSBP::id_qr"
+msgid "id_qr"
+msgstr "id_qr/tid"
+
+msgctxt "SettingsOptions::ee_sberQRSBP::cert_file"
+msgid "cert_file"
+msgstr "Файл сертификата"
+
+msgctxt "SettingsOptions::ee_sberQRSBP::cert_pass"
+msgid "cert_pass"
+msgstr "Пароль сертификата"
+
+msgctxt "SettingsOptions::ee_sberQRSBP::payment_id"
+msgid "payment_id"
+msgstr "Используемый метод оплаты"
+
+msgctxt "SettingsOptions::ee_sberQRSBP::notify"
+msgid "ee_sberQRSBP_notify"
+msgstr "Адрес callback функции"
+
+msgctxt "SettingsTooltips::ee_sberQRSBP::notify"
+msgid "ee_sberQRSBP_notify_tooltips"
+msgstr "Партнер должен реализованный на своей стороне метод /notify со схемой https, на который будут приходить уведомления, его нужно передать в СБЕР для проксирования вызова"
+
+msgctxt "SettingsOptions::ee_sberQRSBP::logs"
+msgid "ee_sberQRSBP_logs"
+msgstr "Записывать логи операций"
+
+msgctxt "SettingsTooltips::ee_sberQRSBP::logs"
+msgid "ee_sberQRSBP_logs_tooltips"
+msgstr "Логи будут записаны в директорию установки модуля + папка logs"
