@@ -43,7 +43,7 @@
 
 ## Поддержка
 
-Если у вас возникли вопросы или проблемы с модулем, пожалуйста, создайте [Issue](https://github.com/ваш_репозиторий/issues) на GitHub или свяжитесь с нами по электронной почте [support@вашдомен.ru](mailto:support@вашдомен.ru).
+Если у вас возникли вопросы или проблемы с модулем, пожалуйста, создайте [Issue](https://github.com/evgeniyefimchenko/ee_sberQRSBP/issues) на GitHub или свяжитесь с нами по электронной почте [evgeniy@efimchenko.com](mailto:evgeniy@efimchenko.com)
 
 ## Лицензия
 
