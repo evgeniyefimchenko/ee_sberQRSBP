@@ -285,8 +285,8 @@ function fn_ee_sberQRSBP_curl_request($url, $headers, $postData) {
     curl_setopt($ch, CURLOPT_SSLCERT, $pathToFile . 'SBQRcertificate.pem');
     curl_setopt($ch, CURLOPT_SSLKEY, $pathToFile . 'SBQRprivate_key.pem');
     curl_setopt($ch, CURLOPT_SSLCERTPASSWD, $certPassword);
-    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
-    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 2);
+	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+	curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);	
     $curlCommand = fn_ee_sberQRSBP_generateCurlCommand($url, $headers, $postData, $pathToFile . 'SBQRcertificate.pem', $pathToFile . 'SBQRprivate_key.pem', $certPassword);
     $response = curl_exec($ch);
     fn_ee_sberQRSBP_logCurlRequest($url, $headers, $postData, $response);	
